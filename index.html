@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yogeshwar Nagpure — Full Stack Java Developer</title>
+<meta name="description" content="Portfolio of Yogeshwar Nagpure, a Full Stack Java Developer working across frontend, backend, and database with Spring Boot, REST APIs, and modern web technologies.">
+<meta name="theme-color" content="#121026">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Scroll progress: the "stack spectrum" thread -->
+<div class="scroll-progress" aria-hidden="true"><div class="scroll-progress__bar" id="scrollProgress"></div></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="site-header__inner">
+    <a href="#home" class="brand">
+      <span class="brand__mark" aria-hidden="true">YN</span>
+      Yogeshwar Nagpure
+    </a>
+
+    <nav class="nav" id="siteNav" aria-label="Primary">
+      <a href="#home" class="nav__link" data-nav>Home</a>
+      <a href="#about" class="nav__link" data-nav>About</a>
+      <a href="#skills" class="nav__link" data-nav>Skills</a>
+      <a href="#experience" class="nav__link" data-nav>Experience</a>
+      <a href="#projects" class="nav__link" data-nav>Projects</a>
+      <a href="#contact" class="nav__link" data-nav>Contact</a>
+      <a href="#contact" class="btn btn-primary btn-sm nav__cta">Let's Talk</a>
+    </nav>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container hero__grid">
+      <div data-reveal>
+        <div class="hero__kicker"><span class="hero__kicker-dot" aria-hidden="true"></span> Open to new opportunities</div>
+
+        <h1 class="hero__name">Hi, I'm <span>Yogeshwar Nagpure</span></h1>
+
+        <p class="hero__role">Full Stack Java Developer<span class="divider">/</span>Frontend<span class="divider">·</span>Backend<span class="divider">·</span>Database</p>
+
+        <p class="hero__intro">I build reliable, end-to-end web applications — from responsive interfaces down to REST APIs, data models, and the infrastructure that keeps them running. Comfortable owning a feature from a Figma frame to a production deployment.</p>
+
+        <div class="hero__actions">
+          <button class="btn btn-primary" id="openResumeBtn">View Resume</button>
+          <a href="#contact" class="btn btn-outline" id="letsTalkBtn">Let's Talk</a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="hero__meta-item"><b>25+</b>Core Java &amp; Spring skills</div>
+          <div class="hero__meta-item"><b>Full&nbsp;Stack</b>Frontend to database</div>
+          <div class="hero__meta-item"><b>REST</b>API &amp; microservices ready</div>
+        </div>
+      </div>
+
+      <div class="hero__portrait" data-reveal>
+        <div class="hero__portrait-ring" aria-hidden="true"></div>
+        <div class="hero__portrait-frame">
+          <img src="assets/img/profile-formal.jpg" alt="Portrait of Yogeshwar Nagpure">
+        </div>
+        <div class="hero__tag">
+          <span class="hero__tag-icon" aria-hidden="true"></span>
+          <span>Java 8+ · Spring Boot</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__photo-wrap" data-reveal>
+          <div class="about__photo">
+            <img src="assets/img/profile-casual.jpg" alt="Yogeshwar Nagpure smiling, casual portrait">
+          </div>
+          <div class="about__badge">
+            <b>Java</b>
+            <span>Primary stack</span>
+          </div>
+        </div>
+
+        <div data-reveal>
+          <div class="eyebrow" style="--eyebrow-accent:var(--stack-1);"><i class="fa-solid fa-user" aria-hidden="true"></i>about</div>
+          <h2 class="section-title" style="--title-accent:var(--stack-1);">A full stack developer who thinks in systems, not just screens</h2>
+          <div class="about__text" style="margin-top:22px;">
+            <p>I work across the entire web stack — building interfaces with HTML, CSS, JavaScript and React/Angular on the front end, powering them with Java, Spring Boot and REST APIs on the back end, and modelling the data underneath with SQL, JDBC and Hibernate.</p>
+            <p>My focus is on writing code that's easy to reason about: clean REST contracts, sensible database design, and enough test coverage that changes don't feel risky. I enjoy the moment a feature moves from a local branch to something real users touch.</p>
+          </div>
+
+          <div class="info-cards" data-reveal-group>
+            <div class="info-card" style="--i:0" data-reveal>
+              <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-compass" style="color:var(--stack-1);"></i></div>
+              <div class="info-card__label">Focus Area</div>
+              <div class="info-card__value">Full Stack Java (Spring Boot)</div>
+            </div>
+            <div class="info-card" style="--i:1" data-reveal>
+              <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-location-dot" style="color:var(--stack-3);"></i></div>
+              <div class="info-card__label">Location</div>
+              <div class="info-card__value">YOUR_LOCATION</div>
+            </div>
+            <div class="info-card" style="--i:2" data-reveal>
+              <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap" style="color:var(--stack-4);"></i></div>
+              <div class="info-card__label">Education</div>
+              <div class="info-card__value">YOUR_DEGREE, YOUR_COLLEGE</div>
+            </div>
+            <div class="info-card" style="--i:3" data-reveal>
+              <div class="info-card__icon" aria-hidden="true"><i class="fa-solid fa-circle" style="color:var(--success);"></i></div>
+              <div class="info-card__label">Availability</div>
+              <div class="info-card__value">Open to opportunities</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow"><i class="fa-solid fa-layer-group" aria-hidden="true"></i>skills</div>
+        <h2 class="section-title section-title--gradient">The stack, layer by layer</h2>
+        <p class="section-sub">Each category below is colour-coded to the same spectrum that runs through this page — frontend through to tooling — so the palette actually maps to what I use, not just how the page looks.</p>
+      </div>
+
+      <div class="skills-categories" id="skillsGrid" data-reveal-group>
+        <!-- populated by script.js from SKILLS_DATA, structural markup kept here for no-JS fallback -->
+      </div>
+      <p class="skills-note">Percentages are self-assessed proficiency, not a certified or scientific measurement.</p>
+
+      <div class="ring-wrap">
+        <p class="ring-title">core technologies I reach for most</p>
+        <div class="ring" id="skillRing" data-paused="false">
+          <div class="ring__track" id="ringTrack"></div>
+          <div class="ring__center"><b>Java</b><span>Core Stack</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow" style="--eyebrow-accent:var(--stack-2);"><i class="fa-solid fa-briefcase" aria-hidden="true"></i>experience</div>
+        <h2 class="section-title" style="--title-accent:var(--stack-2);">Where I've worked</h2>
+        <p class="section-sub">A placeholder timeline, structured so real roles can be dropped in without touching any layout code — see <code>EXPERIENCE_DATA</code> in script.js.</p>
+      </div>
+
+      <div class="timeline" id="timelineList" data-reveal></div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow" style="--eyebrow-accent:var(--stack-3);"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i>projects</div>
+        <h2 class="section-title" style="--title-accent:var(--stack-3);">Selected work</h2>
+        <p class="section-sub">Placeholder project cards — replace the entries in <code>PROJECTS_DATA</code> with real work. Drag, swipe, or use the arrows to browse; click a card to flip it for details.</p>
+      </div>
+
+      <div class="carousel" id="projectCarousel">
+        <div class="carousel__viewport" id="carouselViewport">
+          <div class="carousel__track" id="carouselTrack"></div>
+        </div>
+        <div class="carousel__controls">
+          <button class="carousel__arrow" id="prevBtn" aria-label="Previous project"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+          <div class="carousel__dots" id="carouselDots"></div>
+          <button class="carousel__arrow" id="nextBtn" aria-label="Next project"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+        <p class="carousel__hint">Tap a card to flip · drag or swipe to browse · auto-plays on pause-free view</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROFESSIONAL PROFILES ============ -->
+  <section class="section" id="profiles">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow" style="--eyebrow-accent:var(--stack-4);"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i>elsewhere</div>
+        <h2 class="section-title" style="--title-accent:var(--stack-4);">Find me on LinkedIn &amp; GitHub</h2>
+        <p class="section-sub">Live GitHub stats pulled from the public API — with a graceful fallback if the API is unavailable or rate-limited.</p>
+      </div>
+
+      <div class="profiles-grid" data-reveal-group>
+        <!-- LinkedIn card -->
+        <div class="profile-card" style="--i:0" data-reveal>
+          <div class="profile-card__head">
+            <img class="profile-card__avatar" src="assets/img/profile-formal.jpg" alt="Yogeshwar Nagpure LinkedIn profile photo">
+            <div>
+              <div class="profile-card__name">Yogeshwar Nagpure</div>
+              <div class="profile-card__role">Full Stack Java Developer</div>
+            </div>
+          </div>
+          <p class="profile-card__bio">Connect with me on LinkedIn for updates on projects, roles, and everything Java &amp; Spring related.</p>
+          <div class="profile-card__cta">
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">View LinkedIn Profile <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <!-- GitHub card -->
+        <div class="profile-card" style="--i:1" data-reveal id="githubCard" data-username="YOUR_GITHUB_USERNAME">
+          <div class="profile-card__head">
+            <img class="profile-card__avatar skeleton" id="ghAvatar" alt="" width="64" height="64" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3C/svg%3E">
+            <div>
+              <div class="profile-card__name" id="ghName">Loading…</div>
+              <div class="profile-card__role" id="ghLogin">@YOUR_GITHUB_USERNAME</div>
+            </div>
+          </div>
+          <p class="profile-card__bio" id="ghBio">Fetching public GitHub profile data…</p>
+          <div class="profile-card__stats">
+            <div class="profile-stat"><b id="ghRepos">–</b><span>Repos</span></div>
+            <div class="profile-stat"><b id="ghFollowers">–</b><span>Followers</span></div>
+            <div class="profile-stat"><b id="ghFollowing">–</b><span>Following</span></div>
+          </div>
+          <div class="profile-card__repos" id="ghRepoList"></div>
+          <div class="profile-card__fallback" id="ghFallback">GitHub data isn't available right now (API limit, network, or invalid username) — showing this card without live stats. Visit the profile directly instead.</div>
+          <div class="profile-card__cta">
+            <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">View GitHub Profile <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow" style="--eyebrow-accent:var(--stack-5);"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i>contact</div>
+        <h2 class="section-title" style="--title-accent:var(--stack-5);">Let's build something together</h2>
+        <p class="section-sub">Reach out directly, or send a message below — it opens as a pre-filled WhatsApp message so I see it right away.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact-info-card" data-reveal>
+          <div class="contact-row">
+            <div class="contact-row__icon" aria-hidden="true"><i class="fa-solid fa-envelope" style="color:var(--stack-1);"></i></div>
+            <div>
+              <div class="contact-row__label">Email</div>
+              <div class="contact-row__value"><a href="mailto:yogeshwarnagpure0@gmail.com">yogeshwarnagpure0@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-row__icon" aria-hidden="true"><i class="fa-brands fa-whatsapp" style="color:#25D366;"></i></div>
+            <div>
+              <div class="contact-row__label">Phone / WhatsApp</div>
+              <div class="contact-row__value"><a href="tel:+919764988350">+91 97649 88350</a></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-row__icon" aria-hidden="true"><i class="fa-solid fa-location-dot" style="color:var(--stack-3);"></i></div>
+            <div>
+              <div class="contact-row__label">Location</div>
+              <div class="contact-row__value">YOUR_LOCATION</div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-row__icon" aria-hidden="true"><i class="fa-brands fa-linkedin-in" style="color:#0A66C2;"></i></div>
+            <div>
+              <div class="contact-row__label">LinkedIn</div>
+              <div class="contact-row__value"><a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank" rel="noopener noreferrer">linkedin.com/in/YOUR_LINKEDIN_USERNAME</a></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-row__icon" aria-hidden="true"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <div class="contact-row__label">GitHub</div>
+              <div class="contact-row__value"><a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer">github.com/YOUR_GITHUB_USERNAME</a></div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form" id="contactForm" data-reveal novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="fieldName">Name</label>
+              <input type="text" id="fieldName" name="name" autocomplete="name" required>
+              <p class="field-error">Please enter your name.</p>
+            </div>
+            <div class="field">
+              <label for="fieldEmail">Email</label>
+              <input type="email" id="fieldEmail" name="email" autocomplete="email" required>
+              <p class="field-error">Please enter a valid email address.</p>
+            </div>
+            <div class="field">
+              <label for="fieldPhone">Phone <span style="color:var(--text-muted); font-weight:400;">(optional)</span></label>
+              <input type="tel" id="fieldPhone" name="phone" autocomplete="tel">
+              <p class="field-error">Please enter a valid phone number.</p>
+            </div>
+            <div class="field">
+              <label for="fieldSubject">Subject</label>
+              <input type="text" id="fieldSubject" name="subject" required>
+              <p class="field-error">Please enter a subject.</p>
+            </div>
+            <div class="field field-full">
+              <label for="fieldMessage">Message</label>
+              <textarea id="fieldMessage" name="message" required></textarea>
+              <p class="field-error">Please enter a message.</p>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="brand"><span class="brand__mark" aria-hidden="true">YN</span> Yogeshwar Nagpure</a>
+        <p class="footer__desc">Full Stack Java Developer building dependable products across the frontend, backend, and database layers.</p>
+        <div class="footer__social">
+          <a href="mailto:yogeshwarnagpure0@gmail.com" aria-label="Email Yogeshwar Nagpure"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title">Navigate</div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title">More</div>
+        <a href="#contact">Contact</a>
+        <a href="#" id="footerResumeLink">Resume</a>
+        <a href="terms.html">Terms</a>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title">Get in touch</div>
+        <a href="mailto:yogeshwarnagpure0@gmail.com">yogeshwarnagpure0@gmail.com</a>
+        <a href="tel:+919764988350">+91 97649 88350</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© <span id="footerYear"></span> Yogeshwar Nagpure. All rights reserved.</span>
+      <span><a href="terms.html">Terms &amp; Legal</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+
+<!-- Resume modal -->
+<div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle">
+  <div class="modal">
+    <div class="modal__head">
+      <span class="modal__title" id="resumeModalTitle">Resume — Yogeshwar Nagpure</span>
+      <button class="modal__close" id="closeResumeBtn" aria-label="Close resume preview"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    </div>
+    <div class="modal__body" id="resumeModalBody">
+      <!-- iframe injected by JS, with fallback message if YOUR_RESUME_PDF isn't set -->
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
