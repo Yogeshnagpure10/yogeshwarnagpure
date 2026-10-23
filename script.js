@@ -12,7 +12,7 @@
 const CONFIG = {
   whatsappNumber: "919764988350",     // country code + number, digits only
   resumePdfPath: "assets/Yogeshwar_Nagpure_Resume.pdf", // drop your resume PDF into /assets and update this
-  githubUsername: "YOUR_GITHUB_USERNAME",
+  githubUsername: "Yogeshnagpure10",
 };
 
 /* ---------------------------------------------------------
@@ -82,9 +82,9 @@ const RING_ITEMS = ["Java", "Spring", "REST", "SQL", "JWT", "Docker", "Git", "Ka
 const EXPERIENCE_DATA = [
   {
     role: "Full Stack Java Developer",
-    company: "YOUR_COMPANY_1",
+    company: "Worth Technology Pvt. Ltd",
     type: "Full-time",
-    dates: "YOUR_START_DATE — Present",
+    dates: "March-2026 — Present",
     logoText: "C1",
     description: "Working across the stack to build and maintain web applications, from REST APIs in Spring Boot down to the MySQL schema behind them.",
     points: [
@@ -96,9 +96,9 @@ const EXPERIENCE_DATA = [
   },
   {
     role: "Java Developer Intern",
-    company: "YOUR_COMPANY_2",
+    company: "Infotek Software System Pvt. Ltd",
     type: "Internship",
-    dates: "YOUR_START_DATE — YOUR_END_DATE",
+    dates: "April-2025 — March-2026",
     logoText: "C2",
     description: "Learned production Java development practices while contributing small features and fixes under senior developer guidance.",
     points: [
@@ -110,9 +110,9 @@ const EXPERIENCE_DATA = [
   },
   {
     role: "Software Development Intern",
-    company: "YOUR_COMPANY_3",
+    company: "Mentore Solution",
     type: "Internship",
-    dates: "YOUR_START_DATE — YOUR_END_DATE",
+    dates: "Jun-2024 — April-2025",
     logoText: "C3",
     description: "First hands-on experience shipping code in a team environment, focused on front-end features and small backend tasks.",
     points: [
@@ -671,7 +671,7 @@ async function initGitHubCard() {
     fallback.classList.add("is-visible");
     $("#ghAvatar").classList.remove("skeleton");
     $("#ghName").textContent = username && !looksLikePlaceholder ? username : "GitHub Profile";
-    $("#ghLogin").textContent = "@" + (username || "YOUR_GITHUB_USERNAME");
+    $("#ghLogin").textContent = "@" + (username || "Yogeshnagpure10");
     $("#ghBio").textContent = "Live stats unavailable — visit the profile directly.";
     $("#ghRepos").textContent = "–";
     $("#ghFollowers").textContent = "–";
